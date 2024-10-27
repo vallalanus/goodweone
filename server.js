@@ -138,7 +138,7 @@ setInterval(async () => {
 
 // Test route to check if the backend is running
 app.get('/', (req, res) => {
-    console.log('Backend is running and received a request');
+    console.log(' Good we one is running');
     res.send('Backend is running');
 });
 
