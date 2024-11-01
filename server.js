@@ -6,7 +6,7 @@ const Data = require('./models/Data');
 const moment = require('moment-timezone');
 
 const app = express();
-const port =  4001;
+const port = process.env.PORT ||  4001;
 
 // Middleware
 app.use(bodyParser.json());
